@@ -11,20 +11,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Tabuada</h1>
+    <h1>Calculadora</h1>
     
     <div class="mensagens"></div>
 
     <div class="formulario">
         <!-- Adicione os Campos do Formulário -->
+        <input type="text" id="fnumero1" name="fnumero1"><br><br>
+        <input type="text" id="fnumero2" name="fnumero2"><br><br>
+        <button onclick="calculadora()">Calcular</button>
+
     </div>
     
     <div class="resultados">
-        <p class="soma"></p>
-        <p class="sub"></p>
-        <p class="mult"></p>
-        <p class="div"></p>
-        <p class="resto"></p>
+        <p class="soma" id='soma'> </p>
+        <p class="sub" id='sub'></p>
+        <p class="mult" id='mult'></p>
+        <p class="div" id='div'></p>
+        <p class="resto" id='resto'></p>
     </div>
 
     <script src="main.js" type="text/javascript"></script>
