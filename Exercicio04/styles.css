@@ -1,0 +1,18 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+body {
+    background-color:gray;
+
+}
+
+div.formulario {
+    padding-left: 10rem;
+    line-height: 25px;
+}
+
+div.resultados {
+    padding-left: 10rem;
+    color: indigo;
+}
