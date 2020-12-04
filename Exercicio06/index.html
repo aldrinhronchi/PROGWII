@@ -8,16 +8,30 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
     <link rel="manifest" href="./public/manifest.json">
     <title>Exercício</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="formulario">
-        <!-- Adicione os Campos do Formulário -->
-    </div>
-    
-    <div class="resultados">
-        <!-- Adicione o Resultado -->
+    <h1>Calculadora de Aumento Salarial</h1>
+
+    <div class="mensagens">
+        <!-- Adicione as mensagens de erro, caso existam -->
     </div>
 
-    <script src="XXXXXXX" type="text/javascript"></script>
+
+    <div class="formulario">
+        <!-- Adicione os Campos do Formulário -->
+
+        <input id="nome" type="text" value="" placeholder="Digite nome do funcionário"> <br>
+        <input id="salario" type="number" value="" placeholder="Digite salario atual"><br>
+
+        <button onclick="calculo()">Calcular</button>
+    </div>
+
+    <div class="resultados">
+        <p class="valor"></p>
+    </div>
+
+    <script src="main.js" type="text/javascript"></script>
 </body>
 </html>
